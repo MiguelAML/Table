@@ -1,0 +1,11 @@
+body {
+    background-image: url("white.gif");
+}
+
+h2 {  
+    text-align: center;
+    color: #0F0F0F;
+}
+ul {
+    list-style-type: square; 
+}
