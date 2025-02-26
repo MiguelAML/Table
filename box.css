@@ -12,3 +12,13 @@ div {
 h1 {
   text-align: center;
 }
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+  height: 100vh;    
+  margin: 0;
+  text-align: center;
+}
