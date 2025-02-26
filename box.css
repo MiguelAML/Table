@@ -1,9 +1,14 @@
 div {
-  width
-  border:
-  padding:
+  background-color: lightblue;
+  width: 400px;
+  border: 20px solid black;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  font-size: 3em;
   
 }
 
 h1 {
+  text-align: center;
 }
