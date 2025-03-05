@@ -27,7 +27,7 @@ box-sizing: border-box;
  }
 
 .container {
-    width: 80%
+    width: 80%;
     height: 700px;
     margin: 0 auto;
     border: 10px solid var(--clr-dark);
