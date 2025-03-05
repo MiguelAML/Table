@@ -33,6 +33,13 @@ body {
     border-radius: 10px;
 }
 
+.cointainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
 
 h2 {  
     text-align: center;
