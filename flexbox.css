@@ -10,6 +10,15 @@
 box-sizing: border-box;
  }
 
+div {
+  width: 400px;
+  border: 9px solid black;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  font-size: 3em;
+}
+
 body {
   margin: 0;
     padding: 0;
