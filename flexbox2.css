@@ -8,6 +8,7 @@ body {
     word-spacing: 1.4px;
     font-family: "Roboto", sans-serif;
     color: var(--clr-dark);
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
