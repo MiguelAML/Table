@@ -1,1 +1,8 @@
+img {
+  opacity: 0.1;
+  transition: 5000ms;
+}
 
+img:hoover {
+  opacity: 1;
+}
