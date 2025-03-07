@@ -1,9 +1,12 @@
 img {
   opacity: 0.1;
   transition: 5000ms ;
-  align: center;
 }
 
 img:hover {
   opacity: 1;
+}
+
+body {
+  align: center;
 }
