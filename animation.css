@@ -11,3 +11,7 @@ a:hover {
   opacity: 1;
   color: green;
 }
+
+body {
+   text-align: center;
+}
