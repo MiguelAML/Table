@@ -1,5 +1,5 @@
 img {
-  opacity: 0;
+  opacity: 0.1;
   transition: 5000ms;
 }
 
