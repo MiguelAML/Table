@@ -11,9 +11,9 @@ matiasDiv.addEventListener('click', function() {
 });
 
 document.getElementById("checkButton").addEventListener("click", function() {
-  let age = document.getElementById("_____").value;
-  let resultText = document.getElementById("_____");
-  let resultImage = document.getElementById("_____");
+  let age = document.getElementById("ageInput").value;
+  let resultText = document.getElementById("resulText");
+  let resultImage = document.getElementById("resultImage");
 
   if (age < 15) {
     resultText.innerText = "You cannot drive";
