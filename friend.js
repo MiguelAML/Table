@@ -15,7 +15,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
   let resultText = document.getElementById("resultText");
   let resultImage = document.getElementById("resultImage");
 
-  if (age < 15) {
+  if (age <= 15) {
     resultText.innerText = "You cannot drive";
     resultText.style.color = "red"; // change color
     resultImage.src = "https://i.etsystatic.com/19543171/r/il/f13c94/4513785165/il_570xN.4513785165_h290.jpg";
