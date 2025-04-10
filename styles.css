@@ -15,3 +15,9 @@ ul {
 .p3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+#resulTest {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold:\;
+}
