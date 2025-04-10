@@ -16,15 +16,15 @@ document.getElementById("checkButton").addEventListener("click", function() {
   let resultImage = document.getElementById("_____");
 
   if (age < 15) {
-    resultText.innerText = "_____";
+    resultText.innerText = "You cannot drive";
     resultText.style.color = "red"; // change color
     resultImage.src = "YOUR_BICYCLE_IMAGE_LINK_HERE";
   } else if (age > 16 && age < 24) {
-    resultText.innerText = "_____";
+    resultText.innerText = "You can drive";
     resultText.style.color = "green";
     resultImage.src = "YOUR_CAR_IMAGE_LINK_HERE";
   } else if (age > 28) {
-    resultText.innerText = "_____";
+    resultText.innerText = "You can drive and rent a car";
     resultText.style.color = "green";
     resultImage.src = "YOUR_RENTAL_CAR_IMAGE_LINK_HERE";
   }
