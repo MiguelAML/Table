@@ -25,7 +25,7 @@ for (let i = 1; i <= 5; i++) {
   p.textContent = "This is item #" + i;
   if (i <= 5) {
     p.style.color = "blue";
-  } else {
+  } else (i >= 5){
     p.style.color = "red";
   }
 
