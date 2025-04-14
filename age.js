@@ -20,29 +20,16 @@ document.getElementById("checkButton").addEventListener("click", function() {
 
 const container = document.getElementById("list-container");
 
-for (let i = 1; i <= 5; i+=3) {
+for (let i = 1; i <= 5; i++) {
   const p = document.createElement("p");
   p.textContent = "This is item #" + i;
-  if (i <= 5) {
-    p.style.color = "blue";
-  } else (i >= 5){
-    p.style.color = "red";
-  }
-
   container.appendChild(p);
 }
-
 let j = 1;
 while (j <= 5) {
   const p = document.createElement("p");
   p.textContent = "While loop item #" + j;
-  if (j <= 5) {
-    p.style.color = "blue";
-  } else (j >= 5) {
-    p.style.color = "red";
-  }
-
   container.appendChild(p);
-  j+=3;
+  j++;
 }
 
