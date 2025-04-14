@@ -25,7 +25,7 @@ for (let i = 1; i <= 20; i+=3) {
   p.textContent = "This is item #" + i;
   if (i <= 20) {
     p.style.color = "blue";
-  } else {
+  } else (i >= 20){
     p.style.color = "red";
   }
 
@@ -36,9 +36,9 @@ let j = 1;
 while (j <= 20) {
   const p = document.createElement("p");
   p.textContent = "While loop item #" + j;
-  if (i <= 20) {
+  if (j <= 20) {
     p.style.color = "blue";
-  } else {
+  } else (j >= 20) {
     p.style.color = "red";
   }
 
