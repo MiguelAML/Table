@@ -35,7 +35,7 @@ while (j <= 5) {
   j++;
 }
 
-for (let z = 1; z <= 5; z++) {
+for (let z = 1; z <= 20; z++) {
   const p = document.createElement("p");
   p.textContent = "Red or blue #" + z;
 
