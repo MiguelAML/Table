@@ -39,7 +39,7 @@ for (let z = 1; z <= 5; z++) {
   const p = document.createElement("p");
   p.textContent = "Red or blue #" + z;
 
-  if (z % 2 ==) {
+  if (z % 2 == 0) {
     p.style.color = "blue";
   } else {
     p.style.color = "red";
