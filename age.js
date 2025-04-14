@@ -29,7 +29,7 @@ for (let i = 1; i <= 20; i++) {
 let j = 1;
 while (j <= 20) {
   const p = document.createElement("p");
-  p.textContent = "While loop item #" + i;
+  p.textContent = "While loop item #" + j;
   container.appendChild(p);
   j++;
 }
