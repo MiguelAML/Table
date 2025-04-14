@@ -23,6 +23,12 @@ const container = document.getElementById("list-container");
 for (let i = 1; i <= 5; i++) {
   const p = document.createElement("p");
   p.textContent = "This is item #" + i;
+  if (i <= 5) {
+    p.style.color = "blue";
+  } else {
+    p.style.color = "red";
+  }
+
   container.appendChild(p);
 }
 let j = 1;
