@@ -17,3 +17,11 @@ document.getElementById("checkButton").addEventListener("click", function() {
     resultImage.src = "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/WFO32LK3CRMRBHEIQLVYPZ2QSE.jpg";
   }
 });
+
+const container = document.getElementById("_____");
+
+for (let i = 1; i <= 5; i++) {
+  const p = document.createElement("p");
+  p.textContent = "This is item #" + _____;
+  container.appendChild(p);
+}
