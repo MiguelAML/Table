@@ -35,11 +35,11 @@ while (j <= 5) {
   j++;
 }
 
-for (let i = 1; i <= 5; i++) {
+for (let z = 1; z <= 5; z++) {
   const p = document.createElement("p");
-  p.textContent = i;
+  p.textContent = "Red or blue #" + z;
 
-  if (i % 2 ==) {
+  if (z % 2 ==) {
     p.style.color = "blue";
   } else {
     p.style.color = "red";
