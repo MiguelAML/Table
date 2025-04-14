@@ -23,14 +23,15 @@ const container = document.getElementById("list-container");
 for (let i = 1; i <= 5; i+=3) {
   const p = document.createElement("p");
   p.textContent = "This is item #" + i;
-  if (i <= 5) {
+   if (i % 2 ==0) {
     p.style.color = "blue";
-  } else (i >= 5){
+  } else {
     p.style.color = "red";
   }
 
   container.appendChild(p);
 }
+
 let j = 1;
 while (j <= 5) {
   const p = document.createElement("p");
