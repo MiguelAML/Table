@@ -20,7 +20,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
 
 const container = document.getElementById("list-container");
 
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= 20; i+=3) {
   const p = document.createElement("p");
   p.textContent = "This is item #" + i;
   if (i <= 20) {
