@@ -18,10 +18,19 @@ document.getElementById("checkButton").addEventListener("click", function() {
   }
 });
 
-const container = document.getElementById("_____");
+const container = document.getElementById("list-container");
 
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 20; i++) {
   const p = document.createElement("p");
-  p.textContent = "This is item #" + _____;
+  p.textContent = "This is item #" + i;
   container.appendChild(p);
 }
+
+let j = 1;
+while (j <= 20) {
+  const p = document.createElement("p");
+  p.textContent = "While loop item #" + i;
+  container.appendChild(p);
+  j++;
+}
+
