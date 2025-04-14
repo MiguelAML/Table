@@ -36,7 +36,13 @@ let j = 1;
 while (j <= 20) {
   const p = document.createElement("p");
   p.textContent = "While loop item #" + j;
+  if (i >= 20) {
+    p.style.color = "blue";
+  } else {
+    p.style.color = "red";
+  }
+
   container.appendChild(p);
-  j++;
+  j+=3;
 }
 
